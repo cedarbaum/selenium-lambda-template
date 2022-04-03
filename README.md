@@ -1,11 +1,14 @@
 # selenium-lambda-template
-A template for running Selenium in an AWS Lambda function
 
-## Useful commands
+A template for running Selenium (Python) in an AWS Lambda function. Based on this project: https://github.com/umihico/docker-selenium-lambda, though uses CDK instead of Serverless.
 
- * `npm run build`   compile typescript to js
- * `npm run watch`   watch for changes and compile
- * `npm run test`    perform the jest unit tests
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
+## Deploying
+
+1. `npm install`
+2. `cdk deploy`
+
+## Similar projects
+
+- https://github.com/umihico/docker-selenium-lambda
+- https://github.com/vittorio-nardone/selenium-chromium-lambda
+- https://github.com/soumilshah1995/Selenium-on-AWS-Lambda-Python3.7
